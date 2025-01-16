@@ -1,11 +1,15 @@
 import './App.css'
-import Animations from './components/Animations.tsx'
+import Footer from './shared/ui/footer/Footer'
+import Header from './shared/ui/header/Header'
+import Main1 from './shared/ui/main1/Main1'
 
 
 function App() {
   return (
     <>
-      <Animations/>
+      <Header/>
+      <Main1/>
+      <Footer/>
     </>
   )
 }
